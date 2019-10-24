@@ -1,0 +1,61 @@
+body
+{
+    font-size: 20px;
+}
+
+h1
+{
+    text-align: center;
+    color: red;
+}
+
+div
+{
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+figure
+{
+    text-align: center;
+}
+
+td
+{
+    font-size: 20px;
+    background-color: #ffe0b3;
+}
+
+th
+{
+    font-size: 24px;
+    background-color: #ffcccc;
+}
+
+th, td
+{
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+#correlation
+{
+    background-color: #ffff99;
+}
+
+#compare
+{
+    background-color: #daffb3;
+}
+
+#visual
+{
+    background-color: #b3ffe0;
+}

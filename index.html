@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Correlation vs Causation</h1>
+        <div id="correlation">
+            <h3>What is correlation used for?</h3>
+            <p>Correlation is used to describe a <b>linear</b> relationship between different variables. Correlation can show how strong the relationship between the variables is.</p>
+        </div>
+        <div id="compare">
+            <h3>What is the difference between correlation and causation?</h3>
+            <b>Correlation</b> describes relationship between different variables. Variables with strong correlation <b>does not</b> mean one variable is the cause of the other. 
+            <br />
+            <b>Causation</b> shows that the change of one variable is the reason for the change of another variable. Causation relationship will results in strong correlation, but strong correlation does not mean causation relationship.
+        </div>
+        <div id="visual">
+            Below is 3 different ways to visually show relationships between variables:
+            <figure>
+                <img src="Heatmap.PNG" />
+                <figcaption>Heatmap</figcaption>
+            </figure>
+            <figure>
+                <img src="Parallel.PNG" />
+                <figcaption>Parallel Coordinate plot</figcaption>
+            </figure>
+            <figure>
+                <img src="Scatter.PNG" />
+                <figcaption>Scatter plot</figcaption>
+            </figure>
+            <table>
+                <thead>
+                    <th></th>
+                    <th>Scatterplot</th>
+                    <th>Parallel coordinate plot</th>
+                    <th>Heatmap</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Number of variables</td>
+                        <td>2</td>
+                        <td>Many</td>
+                        <td>Many</td>
+                    </tr>
+                    <tr>
+                        <td>Advantages</td>
+                        <td>- Ideal to see if one variable impacts the other.<br />
+                        - Easy to map and understand.</td>
+                        <td>- Can show infinite number of variables as long as it fits the screen. <br />
+                        - Re-ordering the axes can help see the patterns or correlation between different variables.</td>
+                        <td>- Ideal to show changes in data over time. <br />
+                        - Easy to compare a small set of variables in a big data set.</td>
+                    </tr>
+                    <tr>
+                        <td>Disadvantages</td>
+                        <td>- Easy to mistake correlation with causation. <br />
+                            - Can only show relationship between 2 variables.
+                        </td>
+                        <td>Can be a big mess if there is too many data</td>
+                        <td>Colors can be hard to differentiate</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
